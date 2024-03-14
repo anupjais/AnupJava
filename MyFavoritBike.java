@@ -5,7 +5,7 @@ class MyFavoritBike
 		byte;
 		short engineCapacity = 1000;
 		int avilableInTheWorld = 40000;
-		long ;
-		float price = 24789
+//		long ;
+		float price = 24789;
 	}
 }
