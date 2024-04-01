@@ -17,9 +17,9 @@ class CheetaFundBank
 			// System.out.println("\033[H\033[2J \t*******************************************\n\t\033[93;5m*******\033[0m\t\033[96mWelcome To Cheeta Fund Bank\033[0m \033[93;5m*******\033[0m\n\t*******************************************\n");
 			// System.out.print("\033[H\033[2J");
 			// System.out.flush();
-			System.out.println("\t*******************************************\n\t\033[93;5m*******\033[0m\t\033[96mWelcome To Cheeta Fund Bank\033[0m \033[93;5m*******\033[0m\n\t*******************************************");
-			System.out.print("\n\t\t1. Open Account\n\t\t2. Existing User\n\t\t0. EXIT");
-			System.out.print("\n\n\t\033[95mEnter you preference : \033[0m");
+			System.out.println("\n\t\t*******************************************\n\t\t\033[93;5m*******\033[0m\t\033[96mWelcome To Cheeta Fund Bank\033[0m \033[93;5m*******\033[0m\n\t\t*******************************************");
+			System.out.print("\n\t\t\t1. Open Account\n\t\t\t2. Existing User\n\t\t\t0. EXIT");
+			System.out.print("\n\n\t\t\033[95mEnter you preference : \033[0m");
 			int option = sc.nextInt();
 
 			switch (option)
@@ -28,7 +28,7 @@ class CheetaFundBank
 					{
 						sc.nextLine();
 						System.out.print("\033[H\033[2J");
-						System.out.print("\t*******************************\n\t******* \033[34;5mAccount Section\033[0m *******\n\t*******************************\n");
+						System.out.print("\n\t*******************************\n\t******* \033[34;5mAccount Section\033[0m *******\n\t*******************************\n");
 						System.out.print("Your Name : ");
 						name=sc.nextLine();
 						System.out.print("Address : ");
@@ -67,8 +67,8 @@ class CheetaFundBank
 						accountSectio:
 						for(;;)
 						{
-							System.out.print("\n\t********************************\n\t******* \033[34;5mAccount Features\033[0m *******\n\t********************************\n");
-							System.out.println("\t\t1. Check Balance\n\t\t2. Deposit Amount\n\t\t3. Withdraw Amount\n\t\t4. Account Information\n\t\t5. Log-Out\n\t\t0. EXIT");
+							System.out.print("\n\t\t********************************\n\t\t******* \033[34;5mAccount Features\033[0m *******\n\t\t********************************\n");
+							System.out.println("\t\t\t1. Check Balance\n\t\t\t2. Deposit Amount\n\t\t\t3. Withdraw Amount\n\t\t\t4. Account Information\n\t\t\t5. Log-Out\n\t\t\t0. EXIT");
 							System.out.print("\n\t\t\033[95mEnter you preference : \033[0m");
 							int opt=sc.nextInt();
 							switch (opt)

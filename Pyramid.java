@@ -6,11 +6,11 @@ class Pyramid
 		// Scanner sc = new Scanner(System.in);
 		for(int i=1; i<=5; i++)
 		{
-			// for(int j=5; j>=i; j--)
-			// {
-			// 	// System.out.print("  ");
-			// 	System.out.print(j+" ");
-			// }
+			for(int j=5; j>=i; j--)
+			{
+				// System.out.print("  ");
+				System.out.print(j+" ");
+			}
 			for(int k=5; k>=i-1; k--)
 			{
 				// System.out.print("  ");
