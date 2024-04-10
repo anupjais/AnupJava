@@ -8,7 +8,9 @@ class FibonacciRecursion
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number to get upto the Fibonacci seriese : ");
 		int num = sc.nextInt();
-		fibonacci(num);
+		System.out.print(first+" "+second+" ");
+		fibonacci(num-2);
+		System.out.println();
 	}
 	public static void fibonacci(int num)
 	{
