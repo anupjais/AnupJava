@@ -8,6 +8,7 @@ class TrianglePat2
 			{
 				System.out.print("* ");
 			}
+			System.out.println();
 		}
 	}
 }
