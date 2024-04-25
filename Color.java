@@ -51,51 +51,52 @@ class Color
 	}
 	
 	// Light Color Started
-	public static void Red()
+	public static void red()
 	{
 		System.out.print("\033[91m");
 	}
-	public static void Green()
+	public static void green()
 	{
 		System.out.print("\033[92m");
 	}
-	public static void Yellow()
+	public static void yellow()
 	{
 		System.out.print("\033[93m");
+		// return;
 	}
-	public static void Indigo()
+	public static void indigo()
 	{
 		System.out.print("\033[94m");
 	}
-	public static void Pink()
+	public static void pink()
 	{
 		System.out.print("\033[95m");
 	}
-	public static void Blue()
+	public static void blue()
 	{
 		System.out.print("\033[96m");
 	}
-	public static void RedBG()
+	public static void redBG()
 	{
 		System.out.print("\033[101m");
 	}
-	public static void GreenBG()
+	public static void greenBG()
 	{
 		System.out.print("\033[102m");
 	}
-	public static void YellowBG()
+	public static void yellowBG()
 	{
 		System.out.print("\033[103m");
 	}
-	public static void IndigoBG()
+	public static void indigoBG()
 	{
 		System.out.print("\033[104m");
 	}
-	public static void PinkBG()
+	public static void pinkBG()
 	{
 		System.out.print("\033[105m");
 	}
-	public static void BlueBG()
+	public static void blueBG()
 	{
 		System.out.print("\033[106m");
 	}
