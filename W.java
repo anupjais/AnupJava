@@ -11,7 +11,7 @@ class W
 				if(j==1 || j==rows)
 				{
 					System.out.print("* ");
-					if(i>rows/2 && (i+j==8 ))
+					if(i>rows/2 && (i+j==8))
 					{
 						System.out.print("* ");
 					}

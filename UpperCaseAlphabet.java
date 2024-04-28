@@ -73,8 +73,8 @@ class UpperCaseAlphabet
 				O();
 				// scr.line('*');
 				System.out.println();
-			// case 'P':
-			// 	P();
+			case 'P':
+				P();
 			// 	scr.line('*');
 			case 'Q':
 				Q();
@@ -374,7 +374,7 @@ class UpperCaseAlphabet
 			System.out.println();
 		}
 	}
-	public static void p()
+	public static void P()
 	{
 		for(int i=1; i<=rows; i++)
 		{
@@ -460,7 +460,7 @@ class UpperCaseAlphabet
 	}
 	public static void U()
 	{
-
+		cols=7;
 		for(int i=1; i<=rows; i++)
 		{
 			artist.centerScr(8);
@@ -496,9 +496,20 @@ class UpperCaseAlphabet
 		for(int i=1; i<=rows; i++)
 		{
 			artist.centerScr(8);
-			for(int j=1; j<=cols; j++)
+			for(int j=1; j<=rows; j++)
 			{
-				
+				if(j==1 || j==rows)
+				{
+					System.out.print("* ");
+					if(i>rows/2 && (i+j==8))
+					{
+						System.out.print("* ");
+					}
+					else
+						System.out.print("  ");
+				}
+				else
+					System.out.print("  ");
 			}
 			System.out.println();
 		}

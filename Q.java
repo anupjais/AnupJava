@@ -1,4 +1,4 @@
-class Q
+ class Q
 {
 	public static void main(String[] args)
 	{
