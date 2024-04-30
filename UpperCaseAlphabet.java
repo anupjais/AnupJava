@@ -117,8 +117,8 @@ class UpperCaseAlphabet
 				// scr.line('*');
 				System.out.println();
 				break;
-			default:
-				System.out.println("Invalid Alphabet.");
+			// default:
+			// 	System.out.println("Invalid Alphabet.");
 		}
 	}
 	public static void A()
