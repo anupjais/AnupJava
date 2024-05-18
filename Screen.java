@@ -1,4 +1,4 @@
-class Screen
+class Screen extends Color
 {
 	public static void centerScr()
 	{
