@@ -2,7 +2,7 @@ class WithoutSemicolon
 {
 	public static void main(String[] args)
 	{
-		if(System.out.println("Hello World") == null)
+		if(System.err.printf("Hello World\n") == null)
 		{}
 	}
 }
