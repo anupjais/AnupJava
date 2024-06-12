@@ -1,5 +1,5 @@
 import java.util.*;
-class First10Numbers5
+class First10Numbers51
 {
 	public static void main(String[] args)
 	{
@@ -10,17 +10,13 @@ class First10Numbers5
 		arr[0] = 2;
 		long pow = 2;
 		// 2, 6, 22, 278, 65814
-		// [2, 6, 22, 278, 65814]
 		for(int i=1; i<arr.length; i++)
 		{
 			pow *= pow;
 			arr[i] = arr[i-1]+pow;
 			// arr[i] = pow;
 		}
-		// for (int i : arr)
-		// {
-		// 	System.out.print(i+" ");
-		// }
+		
 		System.out.println(Arrays.toString(arr));
 	}
 }
