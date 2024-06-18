@@ -31,13 +31,18 @@ class MergeArrays
 	{
 		int[] arr=new int[arr1.length+arr2.length];
 		int i=0;
-		for(; i<arr1.length; i++)
+		// for(; i<arr1.length; i++)
+		// {
+		// 	arr[i]=arr1[i];
+		// }
+		// for(int j=0; j<arr2.length; j++)
+		// {
+		// 	arr[i++]=arr2[j];
+		// }
+		for(int j=0; j<arr.length; j++)
 		{
-			arr[i]=arr1[i];
-		}
-		for(int j=0; j<arr2.length; j++)
-		{
-			arr[i++]=arr2[j];
+			if(j<arr2.length)
+				arr[j]=
 		}
 		System.out.println(Arrays.toString(arr1));
 		System.out.println(Arrays.toString(arr2));
