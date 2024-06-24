@@ -8,7 +8,7 @@ class NameChanger
 		String name = sc.next();
 
 		String ch = name.substring(0,1).toUpperCase();
-		String subName = name.substring(1,name.length()).toLowerCase();
+		String subName = name.substring(1).toLowerCase();
 		String newName = ch.concat(subName);
 		System.out.println(newName);
 	}
