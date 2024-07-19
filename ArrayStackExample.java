@@ -47,7 +47,7 @@ class UserArrayStack
     {
         if (len == -1)
         {
-            return null; // Handle underflow
+            return null; 
         }
         Object obj = list[len];
         list[len--] = null;
@@ -57,7 +57,7 @@ class UserArrayStack
     {
         if (len == -1)
         {
-            return null; // Handle underflow
+            return null; 
         }
         return list[len];
     }
